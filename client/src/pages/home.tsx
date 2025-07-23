@@ -289,11 +289,13 @@ export default function Home() {
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
                     <h3 className="font-script text-3xl text-deep-forest text-center mb-6">For the Ladies</h3>
-                    <img 
-                      src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250343/Bridesmaid_Inspo_l5lfez.jpg" 
-                      alt="Dress code inspiration for women" 
-                      className="w-full h-64 object-cover rounded-2xl mb-6"
-                    />
+                    <div className="w-full h-80 bg-gradient-to-br from-powder-pink/10 to-orange-peach/10 rounded-2xl mb-6 overflow-hidden">
+                      <img 
+                        src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250343/Bridesmaid_Inspo_l5lfez.jpg" 
+                        alt="Dress code inspiration for women" 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                     <div className="space-y-4 text-deep-forest">
                       <div>
                         <h4 className="font-semibold text-lg powder-pink">Recommended:</h4>
@@ -308,11 +310,13 @@ export default function Home() {
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
                     <h3 className="font-script text-3xl text-deep-forest text-center mb-6">For the Gentlemen</h3>
-                    <img 
-                      src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250343/download_d0u42w.jpg" 
-                      alt="Dress code inspiration for men" 
-                      className="w-full h-64 object-cover rounded-2xl mb-6"
-                    />
+                    <div className="w-full h-80 bg-gradient-to-br from-baby-blue/10 to-periwinkle/10 rounded-2xl mb-6 overflow-hidden">
+                      <img 
+                        src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250343/download_d0u42w.jpg" 
+                        alt="Dress code inspiration for men" 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                     <div className="space-y-4 text-deep-forest">
                       <div>
                         <h4 className="font-semibold text-lg baby-blue">Recommended:</h4>
