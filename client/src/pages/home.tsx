@@ -62,17 +62,17 @@ export default function Home() {
         <div className="relative z-10 container mx-auto px-4 h-screen flex items-center justify-center">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-8 relative">
-              <h1 className="font-great-vibes text-6xl md:text-8xl text-deep-forest mb-4 drop-shadow-lg">
+              <h1 className="font-elegant text-6xl md:text-8xl text-deep-forest mb-4 drop-shadow-lg">
                 Jovelle & Keith Paul
               </h1>
-              <div className="font-dancing-script text-2xl md:text-3xl orange-peach mb-6">
+              <div className="font-script text-2xl md:text-3xl orange-peach mb-6">
                 "Two Souls, One Heart"
               </div>
             </div>
 
             <Card className="bg-white/80 backdrop-blur-md rounded-3xl p-8 mb-8 petal-border shadow-2xl border-0">
               <CardContent className="p-0">
-                <h2 className="font-great-vibes text-4xl text-deep-forest mb-4">September 18, 2025</h2>
+                <h2 className="font-elegant text-4xl text-deep-forest mb-4">September 18, 2025</h2>
                 <div className="text-lg text-deep-forest space-y-2">
                   <p className="flex items-center justify-center">
                     <Church className="powder-pink mr-3" size={20} />
@@ -112,7 +112,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-baby-blue/40 via-periwinkle/40 to-shadow-lime/40" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-great-vibes text-5xl text-deep-forest mb-8 fade-in">You're Invited</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest mb-8 fade-in">You're Invited</h2>
             
             <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 mb-8 petal-border shadow-2xl fade-in border-0">
               <CardContent className="p-0">
@@ -133,7 +133,7 @@ export default function Home() {
                 the union of Jovelle Espedido and Keith Paul Sacdalan as they begin their 
                 journey together as husband and wife.
               </p>
-              <p className="font-dancing-script text-2xl orange-peach">
+              <p className="font-script text-2xl orange-peach">
                 Join us for a day of love, laughter, and happily ever after!
               </p>
             </div>
@@ -146,61 +146,36 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-shadow-lime/30 via-baby-blue/30 to-periwinkle/30 vine-decoration" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Our Love Story</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Our Love Story</h2>
 
-            <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div className="grid md:grid-cols-1 gap-12 mb-16">
               <div className="fade-in">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl h-full border-0">
                   <CardContent className="p-0">
-                    <h3 className="font-dancing-script text-3xl orange-peach mb-6">How We Met</h3>
-                    <div className="space-y-4 text-deep-forest">
-                      <p><strong>Mid-2019:</strong> Started chatting out of boredom, connected by our accidental matchmaker Albert.</p>
-                      <p><strong>Early Days:</strong> Sporadic chats, occasional dates amidst work and long distance, bonding over memes, coffee, and chicken wing competitions.</p>
-                      <p><strong>Growth:</strong> Love grew through Messenger, late-night calls, and check-ins, marked by intentional effort despite distance.</p>
-                      <p><strong>Milestones:</strong> After two years, transitioned from casual chats to a committed relationship, with signs from God confirming our bond.</p>
-                      <p><strong>Present:</strong> Stronger and sillier, still obsessed with wings and blanket fights, ready for forever on September 18, 2025.</p>
+                    <h3 className="font-script text-3xl orange-peach mb-6 text-center">How We Met</h3>
+                    <div className="space-y-4 text-deep-forest text-lg leading-relaxed">
+                      <p>In mid-2019, we started chatting out of boredom, not exactly a fairy tale beginning. Just two people, half-jokingly hoping our "last relationship" might show up. Shoutout to Albert, our accidental matchmaker!</p>
+                      
+                      <p>At first, we barely talked. A few chats here and there, a couple of dates squeezed between chaotic work schedules and long distance vibes. We bonded over random memes, a mutual addiction to coffee, and a never-ending battle over who can eat more chicken wings. (Spoiler: we're both still undefeated — and unreasonably proud of it).</p>
+                      
+                      <p>But even with the distance and the busyness, love somehow grew over Messenger, through late-night calls, and a hundred "Did you eat already?" check-ins. Not perfectly, but intentionally.</p>
+                      
+                      <p>After two years, from "just chatting" to building something real. And when you're with the right person, the universe and God kept planting little signs in our hearts that this love was worth the wait, worth the work, and worth every airport goodbye.</p>
+                      
+                      <p>And we did the work. We stayed sincere, loyal, and grounded not just in each other, but in something greater than us. We laughed through exhaustion, prayed through uncertainty, and leaned on each other through every challenge.</p>
+                      
+                      <p>Now, here we are still obsessed with wings, still bickering over who gets the blanket, and still completely in love. Our relationship has grown stronger, a little sillier, and so much sweeter with time.</p>
+                      
+                      <p className="font-script text-xl orange-peach text-center pt-4">On September 18, 2025, we'll celebrate three years of choosing each other and the beginning of forever. Our wedding day, our next chapter, and the beautiful road God paved for our always and forever.</p>
                     </div>
                   </CardContent>
                 </Card>
               </div>
 
-              <div className="space-y-8 fade-in">
-                <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-6 petal-border shadow-2xl border-0">
-                  <CardContent className="p-0">
-                    <div className="flex items-center space-x-4">
-                      <img 
-                        src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250898/men_zi2a63.jpg" 
-                        alt="Keith Paul" 
-                        className="w-20 h-20 rounded-full object-cover border-4 border-powder-pink"
-                      />
-                      <div>
-                        <h4 className="font-dancing-script text-2xl text-deep-forest">Keith Paul</h4>
-                        <p className="text-deep-forest">A grounded realist with a witty charm...</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-6 petal-border shadow-2xl border-0">
-                  <CardContent className="p-0">
-                    <div className="flex items-center space-x-4">
-                      <img 
-                        src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250897/women_jhvgkw.jpg" 
-                        alt="Jovelle" 
-                        className="w-20 h-20 rounded-full object-cover border-4 border-orange-peach"
-                      />
-                      <div>
-                        <h4 className="font-dancing-script text-2xl text-deep-forest">Jovelle</h4>
-                        <p className="text-deep-forest">A graceful dreamer with a heart for art and adventure...</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
             </div>
 
             <div className="fade-in">
-              <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Our Journey</h3>
+              <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Our Journey</h3>
               <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                 <CardContent className="p-0">
                   <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -232,7 +207,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-powder-pink/40 via-yellow-peach/40 to-shadow-lime/40" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Messages from Our Families</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Messages from Our Families</h2>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="fade-in">
@@ -240,7 +215,7 @@ export default function Home() {
                   <CardContent className="p-0">
                     <div className="text-center mb-6">
                       <div className="powder-pink text-4xl mb-4">💌</div>
-                      <h3 className="font-dancing-script text-2xl text-deep-forest">From Jovelle's Parents</h3>
+                      <h3 className="font-script text-2xl text-deep-forest">From Jovelle's Parents</h3>
                       <p className="orange-peach font-semibold">Mr. Roberto Hernandez & Dr. Maria Hernandez</p>
                     </div>
                     <div className="text-deep-forest text-center italic">
@@ -255,7 +230,7 @@ export default function Home() {
                   <CardContent className="p-0">
                     <div className="text-center mb-6">
                       <div className="baby-blue text-4xl mb-4">💌</div>
-                      <h3 className="font-dancing-script text-2xl text-deep-forest">From Keith Paul's Parents</h3>
+                      <h3 className="font-script text-2xl text-deep-forest">From Keith Paul's Parents</h3>
                       <p className="orange-peach font-semibold">Mr. Henry Lim & Mrs. Susan Lim</p>
                     </div>
                     <div className="text-deep-forest text-center italic">
@@ -273,8 +248,8 @@ export default function Home() {
       <section className="py-16 relative watercolor-overlay vine-decoration">
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Wedding Day Timeline</h2>
-            <p className="text-center text-xl text-deep-forest mb-12 font-dancing-script fade-in">Joselito's Resort and Events Place</p>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Wedding Day Timeline</h2>
+            <p className="text-center text-xl text-deep-forest mb-12 font-script fade-in">Joselito's Resort and Events Place</p>
 
             <div className="space-y-6">
               {[
@@ -306,14 +281,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-baby-blue/40 via-periwinkle/40 to-powder-pink/40" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Dress Code</h2>
-            <p className="text-center text-2xl font-dancing-script orange-peach mb-12 fade-in">"Rustic Romance"</p>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Dress Code</h2>
+            <p className="text-center text-2xl font-script orange-peach mb-12 fade-in">"Rustic Romance"</p>
 
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div className="fade-in">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
-                    <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-6">For the Ladies</h3>
+                    <h3 className="font-script text-3xl text-deep-forest text-center mb-6">For the Ladies</h3>
                     <img 
                       src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250343/Bridesmaid_Inspo_l5lfez.jpg" 
                       alt="Dress code inspiration for women" 
@@ -332,7 +307,7 @@ export default function Home() {
               <div className="fade-in">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
-                    <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-6">For the Gentlemen</h3>
+                    <h3 className="font-script text-3xl text-deep-forest text-center mb-6">For the Gentlemen</h3>
                     <img 
                       src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753250343/download_d0u42w.jpg" 
                       alt="Dress code inspiration for men" 
@@ -352,7 +327,7 @@ export default function Home() {
             <div className="fade-in">
               <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                 <CardContent className="p-0">
-                  <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Color Palette</h3>
+                  <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Color Palette</h3>
                   
                   <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mb-8">
                     {[
@@ -402,13 +377,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-shadow-lime/40 via-baby-blue/40 to-periwinkle/40 vine-decoration" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Venue</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Venue</h2>
 
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div className="fade-in">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
-                    <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-6">Ceremony</h3>
+                    <h3 className="font-script text-3xl text-deep-forest text-center mb-6">Ceremony</h3>
                     <img 
                       src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753251307/churchJovelle_dqh6hl.jpg" 
                       alt="Joselito's Resort ceremony venue" 
@@ -425,7 +400,7 @@ export default function Home() {
               <div className="fade-in">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
-                    <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-6">Reception</h3>
+                    <h3 className="font-script text-3xl text-deep-forest text-center mb-6">Reception</h3>
                     <img 
                       src="https://res.cloudinary.com/dbiboclqa/image/upload/v1753251306/receptionJovelle_r5dkro.jpg" 
                       alt="Joselito's Resort reception venue" 
@@ -443,7 +418,7 @@ export default function Home() {
             <div className="fade-in">
               <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl text-center border-0">
                 <CardContent className="p-0">
-                  <h3 className="font-dancing-script text-3xl text-deep-forest mb-6">Find Us</h3>
+                  <h3 className="font-script text-3xl text-deep-forest mb-6">Find Us</h3>
                   <div className="space-y-6">
                     <div className="bg-gray-200 h-64 rounded-2xl flex items-center justify-center">
                       <div className="text-center">
@@ -475,11 +450,11 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-powder-pink/40 via-yellow-peach/40 to-baby-blue/40" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Our Wedding Party</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Our Wedding Party</h2>
 
             {/* Principal Sponsors */}
             <div className="mb-12 fade-in">
-              <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Principal Sponsors</h3>
+              <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Principal Sponsors</h3>
               <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                 <CardContent className="p-0">
                   <div className="grid md:grid-cols-2 gap-6 text-center">
@@ -506,7 +481,7 @@ export default function Home() {
 
             {/* Best Man & Maid of Honor */}
             <div className="mb-12 fade-in">
-              <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Best Man & Maid of Honor</h3>
+              <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Best Man & Maid of Honor</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl text-center border-0">
                   <CardContent className="p-0">
@@ -527,7 +502,7 @@ export default function Home() {
 
             {/* Groomsmen & Bridesmaids */}
             <div className="mb-12 fade-in">
-              <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Groomsmen & Bridesmaids</h3>
+              <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Groomsmen & Bridesmaids</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
@@ -554,7 +529,7 @@ export default function Home() {
 
             {/* Secondary Sponsors */}
             <div className="mb-12 fade-in">
-              <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Secondary Sponsors</h3>
+              <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Secondary Sponsors</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-6 petal-border shadow-2xl text-center border-0">
                   <CardContent className="p-0">
@@ -582,7 +557,7 @@ export default function Home() {
 
             {/* Bearers & Flower Maidens */}
             <div className="fade-in">
-              <h3 className="font-dancing-script text-3xl text-deep-forest text-center mb-8">Special Roles</h3>
+              <h3 className="font-script text-3xl text-deep-forest text-center mb-8">Special Roles</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
                   <CardContent className="p-0">
@@ -624,7 +599,7 @@ export default function Home() {
       <section className="py-16 relative watercolor-overlay vine-decoration">
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-great-vibes text-5xl text-deep-forest mb-12 fade-in">Wedding Gifts</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest mb-12 fade-in">Wedding Gifts</h2>
 
             <div className="fade-in">
               <Card className="bg-white/90 backdrop-blur-md rounded-3xl p-8 petal-border shadow-2xl border-0">
@@ -648,7 +623,7 @@ export default function Home() {
 
                   <div className="mt-8">
                     <Gift className="orange-peach text-2xl mx-auto" size={32} />
-                    <p className="text-deep-forest font-dancing-script text-xl mt-2">Thank you for your generosity!</p>
+                    <p className="text-deep-forest font-script text-xl mt-2">Thank you for your generosity!</p>
                   </div>
                 </CardContent>
               </Card>
@@ -662,7 +637,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-baby-blue/40 via-periwinkle/40 to-shadow-lime/40" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Our Memories</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Our Memories</h2>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 fade-in">
               {galleryImages.map((image, index) => (
@@ -691,7 +666,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-powder-pink/40 via-orange-peach/40 to-yellow-peach/40 vine-decoration" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Our Pre-Wedding Story</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Our Pre-Wedding Story</h2>
             
             <div className="fade-in">
               <div className="petal-border rounded-3xl overflow-hidden shadow-2xl">
@@ -710,7 +685,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-baby-blue/40 via-periwinkle/40 to-shadow-lime/40" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-great-vibes text-5xl text-deep-forest text-center mb-12 fade-in">Frequently Asked Questions</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest text-center mb-12 fade-in">Frequently Asked Questions</h2>
             <FAQAccordion />
           </div>
         </div>
@@ -720,7 +695,7 @@ export default function Home() {
       <section className="py-16 relative watercolor-overlay vine-decoration">
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-great-vibes text-5xl text-deep-forest mb-8 fade-in">RSVP</h2>
+            <h2 className="font-elegant text-5xl text-deep-forest mb-8 fade-in">RSVP</h2>
             <p className="text-xl text-deep-forest mb-12 fade-in">Please let us know if you'll be joining our special day</p>
 
             <div className="fade-in">
@@ -744,38 +719,38 @@ export default function Home() {
 
       {/* Footer Section */}
       <footer className="py-12 relative floral-texture">
-        <div className="absolute inset-0 bg-gradient-to-br from-deep-forest/80 via-deep-forest/70 to-deep-forest/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-soft-cream/95 to-white/95" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-              <h3 className="font-great-vibes text-4xl soft-cream mb-4">Jovelle & Keith Paul</h3>
-              <p className="soft-cream text-lg">September 18, 2025</p>
+              <h3 className="font-elegant text-4xl text-deep-forest mb-4">Jovelle & Keith Paul</h3>
+              <p className="text-deep-forest text-lg">September 18, 2025</p>
             </div>
 
             <div className="mb-8">
-              <p className="soft-cream mb-2">Share your photos with our hashtag:</p>
-              <p className="font-dancing-script text-2xl powder-pink">#wePAULnallyRingTheVELLE</p>
+              <p className="text-deep-forest mb-2">Share your photos with our hashtag:</p>
+              <p className="font-script text-2xl orange-peach">#wePAULnallyRingTheVELLE</p>
             </div>
 
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="#" className="soft-cream hover:text-powder-pink transition-colors duration-300">
+              <a href="#" className="text-deep-forest hover:text-powder-pink transition-colors duration-300">
                 <div className="text-2xl">📘</div>
               </a>
-              <a href="#" className="soft-cream hover:text-orange-peach transition-colors duration-300">
+              <a href="#" className="text-deep-forest hover:text-orange-peach transition-colors duration-300">
                 <div className="text-2xl">📷</div>
               </a>
-              <a href="#" className="soft-cream hover:text-yellow-peach transition-colors duration-300">
+              <a href="#" className="text-deep-forest hover:text-yellow-peach transition-colors duration-300">
                 <div className="text-2xl">🐦</div>
               </a>
             </div>
 
-            <div className="text-center soft-cream">
+            <div className="text-center text-deep-forest">
               <p className="mb-2">For questions or inquiries:</p>
               <p>Email: jovelle.keith@wedding.com</p>
               <p>Phone: +63 XXX XXX XXXX</p>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-white/30 text-center soft-cream">
+            <div className="mt-8 pt-8 border-t border-deep-forest/30 text-center text-deep-forest">
               <p>&copy; 2025 Jovelle & Keith Paul. Made with <Heart className="powder-pink mx-1 inline" size={16} /> for our special day.</p>
             </div>
           </div>

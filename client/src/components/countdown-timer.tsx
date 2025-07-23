@@ -34,7 +34,7 @@ export default function CountdownTimer() {
 
   return (
     <div className="mb-8">
-      <h3 className="font-dancing-script text-2xl text-deep-forest mb-4">
+      <h3 className="font-script text-2xl text-deep-forest mb-4">
         Only {timeLeft.days} days until we say 'I do'!
       </h3>
       <div className="flex justify-center space-x-4 flex-wrap">
