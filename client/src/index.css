@@ -218,11 +218,38 @@
   background-color: var(--deep-forest);
 }
 
+/* Mobile responsiveness improvements */
 @media (max-width: 768px) {
   .music-controls {
     top: 10px;
     right: 10px;
     font-size: 12px;
     padding: 8px 12px;
+  }
+  
+  /* Ensure hero section fits properly on mobile */
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100dvh; /* Use dynamic viewport height on mobile */
+  }
+  
+  /* Better mobile spacing for countdown */
+  .countdown-item {
+    background: linear-gradient(135deg, 
+      var(--powder-pink) 0%, 
+      var(--orange-peach) 50%, 
+      var(--yellow-peach) 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Improve text readability on mobile */
+  .font-elegant {
+    line-height: 1.1;
+  }
+  
+  /* Better mobile container spacing */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

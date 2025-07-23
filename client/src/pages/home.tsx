@@ -59,28 +59,28 @@ export default function Home() {
         />
         <div className="absolute inset-0 watercolor-overlay floral-texture" />
         
-        <div className="relative z-10 container mx-auto px-4 h-screen flex items-center justify-center">
-          <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-8 relative">
-              <h1 className="font-elegant text-6xl md:text-8xl text-deep-forest mb-4 drop-shadow-lg">
+        <div className="relative z-10 container mx-auto px-4 py-8 min-h-screen flex items-center justify-center">
+          <div className="text-center max-w-4xl mx-auto w-full">
+            <div className="mb-6 md:mb-8 relative">
+              <h1 className="font-elegant text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-deep-forest mb-4 drop-shadow-lg leading-tight">
                 Jovelle & Keith Paul
               </h1>
-              <div className="font-script text-2xl md:text-3xl orange-peach mb-6">
+              <div className="font-script text-lg sm:text-xl md:text-2xl lg:text-3xl orange-peach mb-4 md:mb-6">
                 "Two Souls, One Heart"
               </div>
             </div>
 
-            <Card className="bg-white/80 backdrop-blur-md rounded-3xl p-8 mb-8 petal-border shadow-2xl border-0">
+            <Card className="bg-white/80 backdrop-blur-md rounded-3xl p-4 sm:p-6 md:p-8 mb-6 md:mb-8 petal-border shadow-2xl border-0">
               <CardContent className="p-0">
-                <h2 className="font-elegant text-4xl text-deep-forest mb-4">September 18, 2025</h2>
-                <div className="text-lg text-deep-forest space-y-2">
-                  <p className="flex items-center justify-center">
-                    <Church className="powder-pink mr-3" size={20} />
-                    Ceremony & Reception at Joselito's Resort and Events Place
+                <h2 className="font-elegant text-2xl sm:text-3xl md:text-4xl text-deep-forest mb-4">September 18, 2025</h2>
+                <div className="text-sm sm:text-base md:text-lg text-deep-forest space-y-2">
+                  <p className="flex items-center justify-center flex-wrap text-center">
+                    <Church className="powder-pink mr-2 flex-shrink-0" size={18} />
+                    <span>Ceremony & Reception at Joselito's Resort and Events Place</span>
                   </p>
                   <p className="flex items-center justify-center">
-                    <MapPin className="orange-peach mr-3" size={20} />
-                    Philippines
+                    <MapPin className="orange-peach mr-2 flex-shrink-0" size={18} />
+                    <span>Philippines</span>
                   </p>
                 </div>
               </CardContent>

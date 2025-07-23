@@ -33,15 +33,15 @@ export default function CountdownTimer() {
   }, []);
 
   return (
-    <div className="mb-8">
-      <h3 className="font-script text-2xl text-deep-forest mb-4">
+    <div className="mb-6 md:mb-8">
+      <h3 className="font-script text-lg sm:text-xl md:text-2xl text-deep-forest mb-4 px-2">
         Only {timeLeft.days} days until we say 'I do'!
       </h3>
-      <div className="flex justify-center space-x-4 flex-wrap">
+      <div className="grid grid-cols-2 sm:flex sm:justify-center gap-3 sm:gap-4 max-w-sm sm:max-w-none mx-auto">
         {Object.entries(timeLeft).map(([unit, value]) => (
-          <div key={unit} className="countdown-item rounded-2xl p-4 text-center min-w-20">
-            <div className="text-3xl font-bold text-deep-forest">{value}</div>
-            <div className="text-sm text-deep-forest capitalize">{unit}</div>
+          <div key={unit} className="countdown-item rounded-2xl p-3 sm:p-4 text-center">
+            <div className="text-2xl sm:text-3xl font-bold text-deep-forest">{value}</div>
+            <div className="text-xs sm:text-sm text-deep-forest capitalize">{unit}</div>
           </div>
         ))}
       </div>
